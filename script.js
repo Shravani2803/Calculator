@@ -24,9 +24,7 @@ buttons.forEach(button => {
                 display.value = "Error";
             }
         }
-        else if (value === "←") {
-            display.value = display.value.slice(0, -1);
-        }
+       
         else if (value === "( )") {
 
             if (openBracket) {
